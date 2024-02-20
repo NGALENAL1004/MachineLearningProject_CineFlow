@@ -1,12 +1,12 @@
-# DeepLearningProject_CryptoForetell
+# DeepLearningProject_CineFlow
 This is a movie recommendation system
 
-# CineWave: Your Movie Recommendation System
+# CineFlow: Your Movie Recommendation System
 La version française est ci-dessous (après la version anglaise)
 
 ## Description
 
-CineWave is a web application that offers personalized movie recommendations based on various search criteria such as genre, actor, director, or title. 
+CineFlow is a web application that offers personalized movie recommendations based on various search criteria such as genre, actor, director, or title. 
 Users can explore movie details like release year, director, main actors, and a brief summary.
 
 ## Main Features
@@ -28,7 +28,7 @@ Users can explore movie details like release year, director, main actors, and a 
 
 1. Clone this GitHub repository to your local machine:
    ```bash
-   git clone https://github.com/your_username/CineWave.git
+   git clone https://github.com/your_username/CineFlow.git
 2. Install the required dependencies by running the following command:
     ```bash
     pip install -r requirements.txt
@@ -53,11 +53,11 @@ Users can explore movie details like release year, director, main actors, and a 
 ## Credits
 This project was developed by NGARI LENDOYE Alix.
 
-# CineWave: Your Movie Recommendation System
+# CineFlow: Your Movie Recommendation System
 English version is above (before french version)
 
 ## Description
-CineWave est une application web qui offre des recommandations de films personnalisées basées sur divers critères de recherche tels que le genre, l'acteur, le réalisateur ou le titre. 
+CineFlow est une application web qui offre des recommandations de films personnalisées basées sur divers critères de recherche tels que le genre, l'acteur, le réalisateur ou le titre. 
 Les utilisateurs peuvent explorer les détails des films comme l'année de sortie, le réalisateur, les acteurs principaux et un résumé succinct.
 
 ## Principales fonctionnalités
@@ -79,7 +79,7 @@ Les utilisateurs peuvent explorer les détails des films comme l'année de sorti
 
 1. Clonez ce dépôt GitHub sur votre machine locale :
    ```bash
-   git clone https://github.com/your_username/CineWave.git
+   git clone https://github.com/your_username/CineFlow.git
 2. Installez les dépendances requises en exécutant la commande suivante :
    ```bash
    pip install -r requirements.txt
