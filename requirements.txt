@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+tmdbv3api
+matplotlib
+seaborn
+wordcloud
+scikit-learn
+nltk
+requests
+python-dotenv
