@@ -43,7 +43,7 @@ load_dotenv()
 tmdb.api_key = os.getenv('TMDB_API_KEY')
 
 ### Titre de l'application
-st.markdown('<p class="titl"><b>🎥🎞️CineFlow🎞️🎥: Your movie recommendation system<b><p>', unsafe_allow_html=True)
+st.title('🎥🎞️CineFlow🎞️🎥: Your movie recommendation system')
 
 st.sidebar.title("🎥🎞️CineFlow🎞️🎥")
 st.sidebar.markdown('<p class="text">CineFlow is a simple and intuitive movie recommendation application. To discover new films, simply choose the search option that interests you from Genre, Actor, Title, or Director in the dropdown menu. Then, click the "Search" button to get personalized recommendations. Explore the suggested movies and discover details such as the release year, director, main actors, and a brief summary. Enjoy CineFlow to enhance your cinematic experience!</p>', unsafe_allow_html=True)
