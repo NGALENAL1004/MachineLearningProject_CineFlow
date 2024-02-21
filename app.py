@@ -47,7 +47,7 @@ st.title('🎥🎞️CineFlow🎞️🎥: Your movie recommendation system')
 
 st.sidebar.title("🎥🎞️CineFlow🎞️🎥")
 st.sidebar.markdown('<p class="text">CineFlow is a simple and intuitive movie recommendation application. To discover new films, simply choose the search option that interests you from Genre, Actor, Title, or Director in the dropdown menu. Then, click the "Search" button to get personalized recommendations. Explore the suggested movies and discover details such as the release year, director, main actors, and a brief summary. Enjoy CineFlow to enhance your cinematic experience!</p>', unsafe_allow_html=True)
-st.sidebar.markdown('<p>Developed par <span class="signature">AlMiDEV</span></p>', unsafe_allow_html=True)
+st.sidebar.markdown('<p>Developed by <span class="signature">AlMiDEV</span></p>', unsafe_allow_html=True)
 
 # Chargement des données depuis le fichier CSV
 def load_data():
