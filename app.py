@@ -30,6 +30,18 @@ st.markdown(
         text-align: justify;
         margin: 30px 0
     }
+    
+     .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px 0;
+    }
+    
+    .social-icons img {
+        filter: invert(1);
+        width: 40px;
+    }
     </style>
     """,
     unsafe_allow_html=True
@@ -47,7 +59,27 @@ st.title('🎥🎞️CineFlow🎞️🎥: Your movie recommendation system')
 
 st.sidebar.title("🎥🎞️CineFlow🎞️🎥")
 st.sidebar.markdown('<p class="text">CineFlow is a simple and intuitive movie recommendation application. To discover new films, simply choose the search option that interests you from Genre, Actor, Title, or Director in the dropdown menu. Then, click the "Search" button to get personalized recommendations. Explore the suggested movies and discover details such as the release year, director, main actors, and a brief summary. Enjoy CineFlow to enhance your cinematic experience!</p>', unsafe_allow_html=True)
-st.sidebar.markdown('<p>Developed by <span class="signature">AlMiDEV</span></p>', unsafe_allow_html=True)
+st.sidebar.markdown('<p>Developed by <span class="signature">NGARI LENDOYE Alix</span></p>', unsafe_allow_html=True)
+
+# Ajouter les icônes avec des liens
+st.sidebar.markdown(
+    """
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/ngari-lendoye-alix-471bb9197/?locale=en_US" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn"/>
+        </a>
+        <a href="https://github.com/NGALENAL1004" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub"/>
+        </a>
+        <a href="https://x.com/Ngalenal1004" target="_blank">
+            <img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" alt="Twitter"/>
+        </a>
+        
+       
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Chargement des données depuis le fichier CSV
 def load_data():
